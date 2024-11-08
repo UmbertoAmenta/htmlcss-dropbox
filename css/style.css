@@ -6,3 +6,98 @@
     margin: 0;
     padding: 0;
 }
+
+
+/*------------
+    GENERAL
+------------*/
+.flex {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container-larger {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*------------
+    TYPOGRAPHY
+------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  /* font-variation-settings: */
+    /* "wdth" 100; */
+}
+
+
+/*------------
+    BUTTONS
+------------*/
+.btn {
+    padding: 7px 15px;
+    border: none;
+}
+
+.btn > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-prim {
+    background-color: #0061fe;
+    color: white;
+}
+
+.btn-sec {
+    background-color: transparent;
+}
+
+
+/*------------
+    HEADER
+------------*/
+header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+header > .flex {
+    gap: 50px;
+}
+
+header ul.flex {
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/*------------
+    MAIN
+------------*/
+
+
+/*------------
+    FOOTER
+------------*/
