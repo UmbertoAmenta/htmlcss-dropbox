@@ -38,6 +38,7 @@ li > a {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 
@@ -167,14 +168,23 @@ margin-bottom: 60px;
     margin-bottom: 50px;
 }
 
-article.plan {
+article {
     border: 1px solid black;
 }
 
-article.plan > div:first-child {
+article > div:first-child {
     border-bottom: 1px solid black;
     text-align: center;
     padding: 10px;
+}
+
+article:not(.plan) {
+    margin-top: 50px;
+}
+
+article:not(.plan) p:last-child {
+padding: 25px;
+max-width: 60%;
 }
 
 .plan-type {
@@ -221,9 +231,38 @@ main section:nth-child(2) .flex {
     gap: 50px;
 }
 
-article .btn {
+article div {
     max-width: 100%;
 }
+
+article button {
+    display: block;
+    max-width: 100%;
+}
+
+.plan-card.business {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner {
+margin-top: 200px;
+}
+
+.partner > div > div:last-child {
+max-width: 30%;
+padding-top: 20px;
+}
+
+.partner > .flex {
+    gap: 50px;
+}
+
+.partner .btn {
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
 
 
 /*------------
