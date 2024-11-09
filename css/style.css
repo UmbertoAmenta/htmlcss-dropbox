@@ -190,6 +190,41 @@ article.plan > div:first-child {
     padding: 25px;
 }
 
+.plan li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plan-card .btn {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.plan hr {
+    margin: 35px 0 40px;
+    max-width: 60px;
+}
+
+.plan a {
+    color: #00f;
+}
+
+.plan h5 {
+    margin-bottom: 25px;
+}
+
+.fa-check {
+    color: #00f;
+}
+
+main section:nth-child(2) .flex {
+    gap: 50px;
+}
+
+article .btn {
+    max-width: 100%;
+}
+
 
 /*------------
     FOOTER

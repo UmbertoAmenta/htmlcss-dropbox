@@ -11,7 +11,7 @@
 
 
     <!-- Fonts awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <title>Dropbox</title>
     <link rel="stylesheet" href="css/style.css">
@@ -65,44 +65,130 @@
             <div class="container">
                 <div class="subscription">
                     <h2>Trova il piano business che fa per te</h2>
-                    <input type="radio" id="fatturazione mensile" name="subscription">
-                    <label for="fatturazione mensile">Fatturazione mensile</label>
-                    <input type="radio" id="fatturazione annuale" name="subscription">
-                    <label for="fatturazione annuale">Fatturazione annuale</label>
+                    <input type="radio" id="fatturazione-mensile" name="subscription">
+                    <label for="fatturazione-mensile">Fatturazione mensile</label>
+                    <input type="radio" id="fatturazione-annuale" name="subscription">
+                    <label for="fatturazione-annuale">Fatturazione annuale</label>
                 </div>
 
                 <div class="flex">
+                    <!-- Single user -->
                     <article class="plan">
-                        <div>Singolo</div>
+                        <div><i class="fa-solid fa-user"></i> Singolo</div>
                         <div class="plan-card">
                             <div class="plan-type">
                                 <h4>Professional</h4>
-                                <div class="prize">€ 12.00</div>
+                                <div class="prize"><strong>€ 12.00</strong></div>
                                 <div>/mese</div>
                             </div>
                             <ul class="plan-info">
                                 <li>
-                                    <div>1 utente</div>
+                                    <div><i class="fa-solid fa-user"></i> 1 utente</div>
                                 </li>
                                 <li>
-                                    <div>5 TB di spazio di archiviazione sicuro</div>
+                                    <div><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</div>
                                 </li>
                                 <li>
-                                    <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                                    <div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
                                 </li>
                             </ul>
                             <div>
                                 <button class="btn btn-prim" type="button">Prova gratis per 30 giorni</button>
-                                <div>oppure <a href="#">aquista ora</a></div>
+                                <div>oppure <a href="#">acquista ora</a></div>
                             </div>
                             <hr>
                             <h5>Punti salienti del piano</h5>
                             <ul>
                                 <li>
-                                  <div>Invia file fino a 100 GB con Dropbox Transfert</div>
+                                  <div><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</div>
                                 </li>
                                 <li>
-                                    <div>Cartelle offline su dispositivi mobili</div>
+                                    <div><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <!-- Team -->
+                    <article class="plan">
+                        <div><i class="fa-solid fa-users"></i> Team</div>
+                        <div class="plan-card">
+                            <div class="plan-type">
+                                <h4>Advanced</h4>
+                                <div class="prize"><strong>€ 18.00</strong></div>
+                                <div>/utente/mese</div>
+                            </div>
+                            <ul class="plan-info">
+                                <li>
+                                    <div><i class="fa-solid fa-users"></i> 3 o più utenti</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
+                                </li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-prim" type="button">Prova gratis per 30 giorni</button>
+                                <div>oppure <a href="#">acquista ora</a></div>
+                            </div>
+                            <hr>
+                            <h5>Punti salienti del piano</h5>
+                            <ul>
+                                <li>
+                                  <div><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </article>
+                    <!-- Company -->
+                    <article class="plan">
+                        <div><i class="fa-solid fa-building"></i> Azienda</div>
+                        <div class="plan-card">
+                            <div class="plan-type">
+                                <h4>Enterprice</h4>
+                                <div class="prize"><strong>Contattaci</strong></div>
+                                <div>-</div>
+                            </div>
+                            <ul class="plan-info">
+                                <li>
+                                    <div><i class="fa-solid fa-users"></i> 10 o più utenti</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratoriin una gestione su larga scala</div>
+                                </li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-prim" type="button">Contattaci</button>
+                                <div>oppure <a href="#">acquista ora</a></div>
+                            </div>
+                            <hr>
+                            <h5>Punti salienti del piano</h5>
+                            <ul>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</div>
+                                </li>
+                                <li>
+                                    <div><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</div>
                                 </li>
                             </ul>
                         </div>
