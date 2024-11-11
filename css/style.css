@@ -142,6 +142,11 @@ main > section:first-child {
     bottom: -80px;
 }
 
+.col-text i:last-of-type {
+    font-size: 40px;
+    padding-top: 60px;
+}
+
 .col-text button {
     margin-top: 40px;
 }
@@ -170,12 +175,18 @@ margin-bottom: 60px;
 
 article {
     border: 1px solid black;
+    flex-basis: calc(100% / 3);
 }
 
 article > div:first-child {
     border-bottom: 1px solid black;
     text-align: center;
     padding: 10px;
+}
+
+article.plan li {
+    display: flex;
+    gap: 5px;
 }
 
 article:not(.plan) {
@@ -237,7 +248,7 @@ article div {
 
 article button {
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 .plan-card.business {
