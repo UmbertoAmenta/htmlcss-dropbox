@@ -226,16 +226,12 @@ max-width: 60%;
     max-width: 60px;
 }
 
-.plan a {
+a, .fa-check {
     color: #00f;
 }
 
 .plan h5 {
     margin-bottom: 25px;
-}
-
-.fa-check {
-    color: #00f;
 }
 
 main section:nth-child(2) .flex {
@@ -286,8 +282,14 @@ padding-top: 20px;
     margin-bottom: 40px;
 }
 
+.customers {
+    margin-top: 200px;
+    margin-bottom: 180px;
+}
 
-
+.customers h2 {
+    padding-bottom: 60px;
+}
 
 
 /*------------
