@@ -258,6 +258,7 @@ article button {
 
 .partner {
 margin-top: 200px;
+margin-bottom: 150px;
 }
 
 .partner > div > div:last-child {
@@ -273,6 +274,19 @@ padding-top: 20px;
     border: 1px solid black;
     margin-top: 25px;
 }
+
+.flex.cards {
+    gap: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card > h3 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
 
 
 
