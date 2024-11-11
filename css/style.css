@@ -48,10 +48,7 @@ img {
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
-  /* font-variation-settings: */
-    /* "wdth" 100; */
 }
 
 h1 {
@@ -89,6 +86,11 @@ h4 {
     color: white;
 }
 
+.btn-prim:hover {
+    transition: 0.5;
+    background-color: #3280fe;
+}
+
 .btn-sec {
     background-color: transparent;
 }
@@ -106,6 +108,7 @@ header {
     z-index: 10;
     top: 0;
     left: 0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 header > .flex {
@@ -318,4 +321,3 @@ footer hr {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
