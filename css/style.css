@@ -211,7 +211,7 @@ max-width: 60%;
     padding: 25px;
 }
 
-.plan li {
+.plan li, footer li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -295,3 +295,27 @@ padding-top: 20px;
 /*------------
     FOOTER
 ------------*/
+footer {
+    background-color: #000;
+    color: #ddd;
+}
+
+footer .flex:not(:last-child) {
+    justify-content: space-between;
+}
+
+footer .flex > div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer hr {
+    border: 1px solid white;
+    max-width: 120px;
+}
+
+.lingua {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
